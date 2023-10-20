@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		9B54DE3D2AE1621500D8BB7A /* algo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algo; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B54DE402AE1621500D8BB7A /* 1259.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1259.swift; sourceTree = "<group>"; };
+		9BBCE0812AE2B5F000F20B9A /* 25206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25206.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				9B54DE402AE1621500D8BB7A /* 1259.swift */,
+				9BBCE0812AE2B5F000F20B9A /* 25206.swift */,
 			);
 			path = backjoon;
 			sourceTree = "<group>";
@@ -98,6 +100,7 @@
 				TargetAttributes = {
 					9B54DE3C2AE1621500D8BB7A = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -251,8 +254,10 @@
 		9B54DE452AE1621500D8BB7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -260,6 +265,7 @@
 		9B54DE462AE1621500D8BB7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
