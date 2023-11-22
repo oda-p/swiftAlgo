@@ -30,6 +30,7 @@ func bfs(_ y: Int, _ x: Int) {
     queue.append((y, x, 0))
     ret[y][x] = 0
     var index = 0
+
     
     while queue.count > index {
         let data = queue[index]
@@ -71,3 +72,4 @@ for i in 0..<n[0] {
     }
     print()
 }
+
